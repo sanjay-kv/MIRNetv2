@@ -10,18 +10,17 @@
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://www.waqaszamir.com/publication/zamir-2022-mirnetv2/)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1HN9Sd8UEqB1k_O8RpdRLL8ZUKcxh5LP8?usp=sharing)
 
-#### News
-- **April 27, 2022:** Codes and pre-trained models are released!
 
-<hr />
 Dependencies
+
 ```
-pip install torchvision
-pip install scikit-image
-pip install natsort
-pip install opencv-python
-pip install tqdm
-python demo.py --task lowlight_enhancement --input_dir './demo/degraded/' --result_dir './demo/restored/'
+pip install torchvision<br>
+pip install scikit-image<br>
+pip install natsort<br>
+pip install opencv-python<br>
+pip install tqdm<br>
+python demo.py --task lowlight_enhancement --input_dir './demo/degraded/' --result_dir './demo/restored/'<br>
+
 ```
 
 <details>
